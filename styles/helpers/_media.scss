@@ -43,7 +43,7 @@ $mobile: 767px;
   }
 }
 
-@media hover {
+@mixin hover {
   @media (hover: hover) {
     &:hover {
       @content;
